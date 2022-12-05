@@ -1,0 +1,52 @@
+body {
+  background-color: navajowhite;
+}
+#winBanner {
+  background-color: white;
+  background-image: url(imgs/winner.png);
+  height: 0px;
+  position: relative;
+}
+#winner {
+  display: none;
+  font-size: 64px;
+  position: absolute;
+}
+#battleTable {
+  width: 800px;
+  margin-top: 3%;
+  margin-left: 50px;
+}
+.center {
+  text-align: center;
+}
+.space {
+  width: 150px;
+}
+.position {
+  margin-top: 2%;
+  padding-left: 2%;
+}
+.icon {
+  background-color: lightblue;
+  border: 2px solid black;
+  text-align: center;
+}
+.icon-miss {
+  background-color: red;
+  border: 2px solid black;
+  text-align: center;
+}
+.icon-hit {
+  background-color: green;
+  border: 2px solid black;
+  text-align: center;
+}
+.icon-sunk {
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+}
+.battle-status-table {
+  margin-top: 10px;
+}
